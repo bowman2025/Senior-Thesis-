@@ -1,5 +1,4 @@
 # R Script for Thesis Analysis
-# Cleaned and refined for GitHub upload
 # Author: Bailey Bowman
 # Date: April 2025
 #----------------------------------------------------------------------
