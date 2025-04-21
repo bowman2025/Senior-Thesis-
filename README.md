@@ -12,6 +12,9 @@ This repository contains the R script and supporting documentation used for data
 
 The thesis explores how white rural voters respond to different Democratic candidates and messages, focusing on candidate identity (e.g., rural or working-class background) and economic populist messaging. The analysis is based on an original survey conducted in early 2025, alongside qualitative interviews.
 
+ChatGPT (GPT-4) was used to assist with R programming, troubleshooting, and formatting. All analysis and interpretation was conducted by the author.
+
+
 ---
 
 ## Files Included
