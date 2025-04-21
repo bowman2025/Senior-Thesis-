@@ -4,7 +4,7 @@
 
 This repository contains the R script and supporting documentation used for data analysis in my undergraduate honors thesis:
 
-**Title**: Of the Land, For the People: Candidate Identity and Economic Populism in Rural America – How the Democratic Party Can Gain Support Among White Rural Voters
+**Title**: *Of the Land, For the People: Candidate Identity and Economic Populism in Rural America – How the Democratic Party Can Gain Support Among White Rural Voters*  
 **Author**: Bailey Bowman  
 **Institution**: Haverford College  
 **Date**: April 2025  
@@ -51,7 +51,8 @@ library(ggplot2)
 library(nnet)
 library(logistf)
 
-## Citation
+
+**## Citation**
 
 If you reference or build on this work, please credit:
 
@@ -59,9 +60,10 @@ If you reference or build on this work, please credit:
 
 ---
 
-## Contact
+**## Contact**
 
 Have questions or feedback?  
-Feel free to reach out via GitHub or connect with me on LinkedIn @ [(https://www.linkedin.com/in/baileybowman2025/)].
+Feel free to reach out via GitHub or connect with me on [LinkedIn](https://www.linkedin.com/in/baileybowman2025/).
+
 
 
