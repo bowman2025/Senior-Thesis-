@@ -1,0 +1,134 @@
+Thesis_Codebook_InDatasetOrder
+Variable Name,Description,Values & Coding
+Teacher,Selected candidate in paired-choice test,"1 = Selected, 0 = Not selected"
+Veteran,Selected candidate in paired-choice test,"1 = Selected, 0 = Not selected"
+Mechanic,Selected candidate in paired-choice test,"1 = Selected, 0 = Not selected"
+Why.Dems.fail.ranked,"Multi-select categorical variable capturing which reasons the respondent selected as explanations for why the Democratic Party has lost support among rural voters. Despite the name, this is a checklist-style variable, not a ranked response.","	""Touch"" = The Democratic Party is out of touch with the needs of rural voters
+	""Cities"" = The Democratic Party only cares about cities
+	""Pronouns"" = The Democratic Party is too concerned with identity politics like trans kids in sports and pronouns
+	""Effort"" = The Democratic Party does not make an effort to connect with rural voters
+	""Other"" = Respondent wrote in a different reason not listed above
+Note: Responses were stored as a list or combination of selected values. Each component is also represented in separate binary variables (Touch, Cities, etc.) for analysis.
+"
+Why.Dems.fail.open,Open Response to why Democrats are failing to get votes in Coshocton County. ,Open-text field
+Voted.for.Dem,Voted for Democrat Ever,"1 = Yes, 0 = No"
+Voted.for.Dem.when,"Categorical variable indicating how long ago the respondent last voted for a Democratic candidate, based on a multiple-choice response.","1 = Within the last 10 years
+2 = 10–20 years ago
+3 = 21–30 years ago
+4 = More than 30 years ago"
+Split.ticket.voting,Would the respondent split-ticket vote,"1 = Yes, 0 = No"
+split.ticket.when,Open-ended response indicating under what circumstances or in what situations the respondent would consider voting for candidates from different political parties on the same ballot (split-ticket voting).,Open-text field
+Travels.to.rural,Ranked importance the respondent places on a Democratic candidate traveling to rural communities. ,"
+1 = Most important
+2 =
+3 =
+4 = Least important"
+Rural.background,"Ranked importance the respondent places on a candidate having a rural background, based on a ranking of desirable candidate traits.","1 = Most important
+2 =
+3 =
+4 = Least important"
+Rural.priority,"Ranked importance the respondent places on rural issues being prioritized, based on a ranking of desirable candidate traits.","1 = Most important
+2 =
+3 =
+4 = Least important"
+Working.class.focus,Ranked importance the respondent places on a Democratic candidate having a working-class focus.,"1 = Most important
+2 =
+3 =
+4 = Least important"
+Education,Message Comparison 1: Education ,"1 = Economic Populist Message , 0 = Alternative message "
+Education..1.favorability,"Respondent’s favorability rating for the economic populist education message, measured on a 5-point Likert scale.","1 = Strongly Disagreeable
+2 = Somewhat Disagreeable
+3 = Neutral
+4 = Somewhat Agreeable
+5 = Strongly Agreeable"
+Education..2.favorability,"Respondent’s favorability rating for the non-economic populist education message, measured on a 5-point Likert scale.","1 = Strongly Disagreeable
+2 = Somewhat Disagreeable
+3 = Neutral
+4 = Somewhat Agreeable
+5 = Strongly Agreeable"
+Taxes,Message Comparison 2: Taxes,"1 = Economic Populist Message , 0 = Alternative message "
+Taxes..1.favorability,"Respondent’s favorability rating for the economic populist tax message, measured on a 5-point Likert scale.","1 = Strongly Disagreeable
+2 = Somewhat Disagreeable
+3 = Neutral
+4 = Somewhat Agreeable
+5 = Strongly Agreeable"
+Taxes..2.favorability,"Respondent’s favorability rating for the non-economic populist tax message, measured on a 5-point Likert scale.","1 = Strongly Disagreeable
+2 = Somewhat Disagreeable
+3 = Neutral
+4 = Somewhat Agreeable
+5 = Strongly Agreeable"
+Ag,Message Comparison 3: Agriculture ,"1 = Economic Populist Message , 0 = Alternative message "
+Ag.1.favorability,"Respondent’s favorability rating for the non-economic populist agriculture message, measured on a 5-point Likert scale.","1 = Strongly Disagreeable
+2 = Somewhat Disagreeable
+3 = Neutral
+4 = Somewhat Agreeable
+5 = Strongly Agreeable"
+Ag.2.favorability,"Respondent’s favorability rating for the economic populist agriculture message, measured on a 5-point Likert scale.","1 = Strongly Disagreeable
+2 = Somewhat Disagreeable
+3 = Neutral
+4 = Somewhat Agreeable
+5 = Strongly Agreeable"
+Race,Respondent's race,"0 = White, 1 = Other, 2 = Asian"
+Hispanic,Hispanic ethnicity (Yes/No),"1 = Yes, 0 = No"
+sex,Respondent's gender,"0 = Male, 1 = Female"
+Education.Level,"Respondent’s highest level of formal education, recoded into an ordinal numeric scale for analysis.","0 = Less than High School
+1 = High School Graduate or GED
+2 = Some College, No Degree
+3 = Associate Degree (2-year)
+4 = Bachelor’s Degree (4-year)
+5 = Some Graduate School
+6 = Master’s Degree
+7 = Doctorate or Professional Degree (e.g., JD, MD, PhD)"
+Vote.in.last.election,Indicates whether the respondent reported voting in the most recent general election.,"1 = Yes, 0 = No"
+Self.identified.partisanship,"Respondent’s self-described political party affiliation, recorded as a categorical text response from the survey.","""Republican""
+""Democrat""
+""Independent""
+""None""
+""Other"""
+Republican.Strength,Partisan strength ,"1 = Strong, 0 = Not very strong"
+Democrat.strength,Partisan strength ,"1 = Strong, 0 = Not very strong"
+Closer.to.Republican.or.Democrat,Party alignment for Independents ,"1 = Democrat, 0 = Republican"
+Political.scale,Political Ideology from 0 (most liberal) to 7 (most conservative) ,Numeric: 0-7
+Party.registration,"Respondent’s self-reported formal party registration status, recorded as a categorical text response from the survey.","""Republican""
+""Democrat""
+""Independent""
+""None"""
+Broadband,One of nine listed issues for Rural Americans ,"1 = Mentioned, 0 = Not mentioned"
+Public_education,One of nine listed issues for Rural Americans ,"1 = Mentioned, 0 = Not mentioned"
+Addiction,One of nine listed issues for Rural Americans ,"1 = Mentioned, 0 = Not mentioned"
+Healthcare,One of nine listed issues for Rural Americans ,"1 = Mentioned, 0 = Not mentioned"
+Rural_development,One of nine listed issues for Rural Americans ,"1 = Mentioned, 0 = Not mentioned"
+Wealth_inequality,One of nine listed issues for Rural Americans ,"1 = Mentioned, 0 = Not mentioned"
+Unions,"Ability to unionize, One of nine listed issues for Rural Americans ","1 = Mentioned, 0 = Not mentioned"
+Ag_investments,"Agricultural investments, One of nine listed issues for Rural Americans ","1 = Mentioned, 0 = Not mentioned"
+Good_job,One of nine listed issues for Rural Americans ,"1 = Mentioned, 0 = Not mentioned"
+Out_of_touch,"Reason respondent thinks Democrats fail, out of touch with rural needs ","1 = Mentioned, 0 = Not mentioned"
+Cities,"Reason respondent thinks Democrats fail, too focused on cities ","1 = Mentioned, 0 = Not mentioned"
+Pronouns,"Reason respondent thinks Democrats fail, too concerned with identity politics ","1 = Mentioned, 0 = Not mentioned"
+Lack_of_effort,"Reason respondent thinks Democrats fail, do not try to connect with rural voters ","1 = Mentioned, 0 = Not mentioned"
+Party.registration.numeric,Categorical variable representing how respondents reported their official party registration status (if registered). Recoded into numeric values for analysis.,"0 = Republican
+1 = Independent
+2 = Democrat
+3 = None"
+Self.identified.partisanship.numeric,Categorical variable representing how respondents reported their self reported partisanship. Recoded into numeric values for analysis.,"0 = Republican
+1 = Independent
+2 = Democrat
+3 = None
+4 = Other "
+Education.group,Collapsed categorical variable representing the respondent’s highest level of formal education. Recoded from detailed education responses into three broader education groups for analysis.,"1 = No College (e.g., high school diploma or less)
+2 = Some College (e.g., some college, associate’s degree, vocational training)
+3 = College or Graduate Degree (e.g., Bachelor’s, Master’s, PhD, or professional degree)"
+income.numeric,Leveled income variable ,"0 = Less than $10,000
+1 = $10,000–$19,999
+2 = $20,000–$29,999
+3 = $30,000–$39,999
+4 = $40,000–$49,999
+5 = $50,000–$59,999
+6 = $60,000–$69,999
+7 = $70,000–$79,999
+8 = $80,000–$89,999
+9 = $90,000–$99,999
+10 = $100,000–$149,999
+11 = $150,000 or more"
+employment.binary,Working currently,"1 = Yes, 0 = No"
+age,Respondent's age ,2025-Year.of.birth variable= age 
